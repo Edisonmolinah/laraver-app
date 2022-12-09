@@ -11,10 +11,13 @@ configuracion de conexion a base de datos
 - DB_HOST=127.0.0.1
 - DB_PORT=3306
 
-se deben lanzar las migraciones :  php artisan migrate
-se debe correr el proyecto : php artisan serve 
+## se deben lanzar las migraciones : 
+- php artisan migrate
 
-Las rutas para los endpoints:
+## se debe correr el proyecto : 
+- php artisan serve 
+
+## Las rutas para hacer uso del app Laravel :
 
 - get : 127.0.0.1:8000/api/category/all
 
@@ -37,20 +40,10 @@ Las rutas para los endpoints:
 - delete : 127.0.0.1:8000/api/post/{id}/destroy
 
 
+### Para consumir esta api desde una api web en vue descargar el repo URL del front: 
+
+- https://github.com/Edisonmolinah/post-vue
 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
 
